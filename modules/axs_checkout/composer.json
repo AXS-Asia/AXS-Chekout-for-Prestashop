@@ -1,0 +1,14 @@
+{
+  "name": "axs/axs_checkout",
+  "description": "PrestaShop payment integration for AXS Checkout",
+  "type": "prestashop-module",
+  "require": {
+    "php": ">=7.2 <=8.1.4", 
+    "web-token/jwt-framework": "^2.0"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "prepend-autoloader": false,
+    "classmap-authoritative": true
+  }
+}
